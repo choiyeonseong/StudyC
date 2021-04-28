@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main() {
-
+int main()
+{
 	printf("Be happy\n");
 	printf("1234567891234567890\n");
 	printf("My\tfriend\n");

@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main() 
+{
 
 	printf("Be happy\n");	// 출력함수
 	printf("My friend\n");

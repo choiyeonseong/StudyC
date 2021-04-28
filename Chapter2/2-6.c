@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-
+int main()
+{
 	printf("%.1lf\n", 1e6);
 	printf("%.7lf\n", 3.14e-5);
 	printf("%le\n", 0.0000314);	// %le - 지수형태 출력

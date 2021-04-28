@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main() 
+{
 	short sh = 32767;
 	int in = 2147483647;
 	long ln = 2147483647;
