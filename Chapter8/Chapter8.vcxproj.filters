@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator_v3.c">
+    <ClCompile Include="8-3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
