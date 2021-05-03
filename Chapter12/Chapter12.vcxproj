@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8-7.c" />
+    <ClCompile Include="lotto2.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cd40f1df-2607-4e22-809f-536493ad67ad}</ProjectGuid>
-    <RootNamespace>Chapter8</RootNamespace>
+    <ProjectGuid>{4677edc3-716d-4134-a7a7-e5db7092bebe}</ProjectGuid>
+    <RootNamespace>Chapter12</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

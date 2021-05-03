@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8-7.c" />
+    <ClCompile Include="9-7-1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cd40f1df-2607-4e22-809f-536493ad67ad}</ProjectGuid>
-    <RootNamespace>Chapter8</RootNamespace>
+    <ProjectGuid>{8eba60dd-c8f1-4da0-809f-3aed755bc137}</ProjectGuid>
+    <RootNamespace>Chapter9</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

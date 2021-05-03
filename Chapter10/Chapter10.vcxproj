@@ -18,14 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="8-7.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cd40f1df-2607-4e22-809f-536493ad67ad}</ProjectGuid>
-    <RootNamespace>Chapter8</RootNamespace>
+    <ProjectGuid>{9fb71224-a692-4009-b765-77db8e57375b}</ProjectGuid>
+    <RootNamespace>Chapter10</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,6 +138,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="10-6.c">
+      <DeploymentContent>false</DeploymentContent>
+      <FileType>CCode</FileType>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
