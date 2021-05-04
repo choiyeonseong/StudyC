@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exercise.c">
+    <ClCompile Include="13-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_function.c">
+    <ClCompile Include="13-8.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
