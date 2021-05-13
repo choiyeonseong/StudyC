@@ -1,10 +1,15 @@
 #include<stdio.h>
-#include"student.h"
+#include"user.h"
+
 int main()
 {
-	Student a = { 315,"홍길동" };
-
-	printf("학번 : %d, 이름 : %s\n", a.num, a.name);
+	int n1, n2;
+	int result;
+	input_data(&n1,&n2);
+	result = sum(n1,n2);
+	printf("합 : %d\n", result);
 
 	return 0;
 }
+
+// SDL 검사 : 아니요
