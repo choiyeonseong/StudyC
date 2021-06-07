@@ -11,7 +11,7 @@
 #include <string.h>
 #include <windows.h>
 
-typedef struct 
+typedef struct
 {
 	int num;
 	char name[20];
@@ -29,7 +29,7 @@ void new_member(int num, char* name, double weight);	// 신규회원 추가
 
 static int count = 0;	// 전체 회원수
 
-int main() 
+int main()
 {
 	// 입력받기 위한 임시 변수
 	int num;
@@ -56,13 +56,13 @@ int main()
 
 			new_member(num, name, weight);	// 신규 회원 추가
 
-			total_number(count);	// 총 회원 수
+			total_number(count);			// 총 회원 수
 
 			printf("평균 체중 : %.2lf\n", average_weight(ary, count));	// 평균 체중 반환
 
 			// 최대 체중 회원
 			int max_index = max_weight(ary, count);
-			printf("최고 체중 회원 : %s -> %.2lf\n", ary[max_index]->name,ary[max_index]->weight);		
+			printf("최고 체중 회원 : %s -> %.2lf\n", ary[max_index]->name, ary[max_index]->weight);
 
 			// 전체 회원 정보 출력
 			for (int i = 0; i < count; i++)
@@ -70,7 +70,7 @@ int main()
 				print_info(ary, i);
 			}
 
-			printf("계속하려면 키보드 입력\n");
+			printf("\n계속하려면 키보드 입력\n");
 			getchar();
 			getchar();
 			system("cls");
@@ -80,9 +80,8 @@ int main()
 	free_ary(ary, count);
 }
 
-
 // 동적할당 영역 해제
-void free_ary(Fitness** pary, int count) 
+void free_ary(Fitness** pary, int count)
 {
 	for (int i = 0; i < count; i++)
 	{
@@ -92,7 +91,7 @@ void free_ary(Fitness** pary, int count)
 }
 
 // 회원 정보 출력
-void print_info(Fitness** pary, int index) 
+void print_info(Fitness** pary, int index)
 {
 	printf("****************\n");
 	printf("회원 번호 : %d\n", pary[index]->num);
@@ -101,7 +100,7 @@ void print_info(Fitness** pary, int index)
 }
 
 // 최대 체중 회원의 index반환
-int max_weight(Fitness** pary, int count) 
+int max_weight(Fitness** pary, int count)
 {
 	int max = 0;
 	for (int i = 1; i < count; i++)
@@ -115,7 +114,7 @@ int max_weight(Fitness** pary, int count)
 }
 
 // 평균 체중 반환
-double average_weight(Fitness** pary, int count) 
+double average_weight(Fitness** pary, int count)
 {
 	double sum = 0;
 	for (int i = 0; i < count; i++)
@@ -126,19 +125,19 @@ double average_weight(Fitness** pary, int count)
 }
 
 // 전체 등록 회원 수 반환
-void total_number(int count) 
+void total_number(int count)
 {
 	printf("총 회원수 : %d\n", count);
 }
 
 // 신규 회원 추가
-void new_member(int num, char* name, double weight) 
+void new_member(int num, char* name, double weight)
 {
 	// 중복 확인
 	// 중복되면 회원 추가 되지 않음
 	for (int i = 0; i < count; i++)
 	{
-		if (ary[i]->num == num || strcmp(ary[i]->name, name) == 0) 
+		if (ary[i]->num == num || strcmp(ary[i]->name, name) == 0)
 		{
 			printf("회원 번호나 이름 중복\n");
 			return;
